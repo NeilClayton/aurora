@@ -1,0 +1,275 @@
+@charset "UTF-8";
+header {
+  background: #EFEBFC;
+  padding: 50px 0;
+  text-align: right;
+  color: #13A89E;
+  font-family: "Open Sans", sans-serif;
+}
+header a {
+  color: #13A89E !important;
+  font-size: 2.8rem;
+}
+header a .fa {
+  margin-right: 10px;
+}
+header .social {
+  margin-top: 10px;
+  display: inline-block;
+  float: right;
+}
+header .social .i-container {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+}
+header .social .i-container .fa {
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+  color: white;
+}
+header .social .facebook {
+  background: #3B5998;
+}
+header .social .twitter {
+  background: #44C1F7;
+}
+header .social .gplus {
+  background: #DC4A38;
+}
+
+nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-default {
+  background: -moz-linear-gradient(top, #f8f6fd 0%, #f0ebfd 50%, #dfdaee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f6fd), color-stop(50%, #f0ebfd), color-stop(100%, #dfdaee));
+  background: -webkit-linear-gradient(top, #f8f6fd 0%, #f0ebfd 50%, #dfdaee 100%);
+  background: -o-linear-gradient(top, #f8f6fd 0%, #f0ebfd 50%, #dfdaee 100%);
+  background: -ms-linear-gradient(top, #f8f6fd 0%, #f0ebfd 50%, #dfdaee 100%);
+  background: linear, to bottom, #f8f6fd 0%, #f0ebfd 50%, #dfdaee 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f6fd', endColorstr='#dfdaee',GradientType=0 );
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+.navbar-default .navbar-toggle {
+  background: transparent !important;
+  border: none;
+  margin-top: 13px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+.navbar-default .navbar-collapse {
+  text-align: center;
+}
+.navbar-default .navbar-collapse .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar-default .navbar-collapse .navbar-nav > li {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+  margin: 0;
+  padding: 15px 15px;
+  color: #13A89E;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #f1f1f1;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a.first {
+  border-left: none;
+  font-size: 2.1rem;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a.last {
+  border-right: none;
+}
+.navbar-default .navbar-collapse ul.nav li.dropdown:hover .dropdown-menu {
+  display: block;
+  background: #11968d;
+  border-radius: 0;
+  padding: 0;
+}
+.navbar-default .navbar-collapse ul.nav li.dropdown:hover .dropdown-menu > li > a {
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid #109188;
+  font-size: 1.3rem;
+}
+.navbar-default .navbar-collapse ul.nav li.dropdown:hover .dropdown-menu > li:hover > a {
+  background: #13A89E;
+}
+.navbar-default .navbar-right {
+  margin-right: 100px;
+}
+.navbar-default .navbar-right > li > a.last {
+  border-right: none;
+}
+
+.medhistory {
+  padding: 60px 0;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.medhistory h1 {
+  font-family: Georgia, serif;
+}
+.medhistory h2 {
+  font-family: Georgia, serif;
+}
+.medhistory h4 {
+  font-family: Georgia, serif;
+  font-size: 2.7rem;
+  padding: 20px 0;
+  color: white;
+}
+.medhistory h5 {
+  font-family: Georgia, serif;
+  font-size: 2.3rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.medhistory form .title {
+  font-size: 1.8rem;
+  font-family: Georgia, serif;
+}
+.medhistory form label {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.medhistory form .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  border-color: #ddd;
+}
+.medhistory form input[type=text], .medhistory form input[type=date] {
+  height: 40px;
+}
+.medhistory form textarea {
+  resize: none;
+}
+.medhistory form .r-buttons {
+  margin-bottom: 10px;
+}
+.medhistory form .panel-default {
+  border-radius: 0;
+  border-color: #13A89E;
+}
+.medhistory form .panel-default .panel-heading {
+  background: #13A89E;
+  border-color: #13A89E;
+  border-radius: 0;
+}
+.medhistory form .panel-default .panel-heading [data-toggle="collapse"]:after {
+  font-family: "FontAwesome", sans-serif;
+  content: "";
+  float: right;
+  color: white;
+  font-size: 25px;
+  line-height: 35px;
+  margin-right: 20px;
+}
+.medhistory form .panel-default .panel-heading [data-toggle="collapse"].collapsed:after {
+  content: "";
+}
+.medhistory form .panel-default .panel-heading .panel-title a, .medhistory form .panel-default .panel-heading .panel-title a:visited, .medhistory form .panel-default .panel-heading .panel-title a:active, .medhistory form .panel-default .panel-heading .panel-title a:focus, .medhistory form .panel-default .panel-heading .panel-title a:hover {
+  text-decoration: none;
+}
+.medhistory form .panel-default .panel-body {
+  border-color: #13A89E !important;
+}
+.medhistory form .panel-default .panel-body .continue, .medhistory form .panel-default .panel-body .back {
+  width: 300px;
+  display: inline-block;
+  background: #13A89E;
+  color: white;
+  padding: 12px 0;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 3px solid #0c7f77;
+}
+.medhistory form .panel-default .panel-body .continue:visited, .medhistory form .panel-default .panel-body .continue:active, .medhistory form .panel-default .panel-body .continue:hover, .medhistory form .panel-default .panel-body .continue:focus, .medhistory form .panel-default .panel-body .back:visited, .medhistory form .panel-default .panel-body .back:active, .medhistory form .panel-default .panel-body .back:hover, .medhistory form .panel-default .panel-body .back:focus {
+  text-decoration: none;
+}
+.medhistory form .panel-default .panel-body .back {
+  margin-bottom: 15px;
+}
+.medhistory form .confirmation {
+  margin: 30px 0;
+  font-weight: bold;
+}
+.medhistory form button {
+  background: #13A89E;
+  border: none;
+  border-bottom: 3px solid #0c7f77;
+  color: white;
+  padding: 12px 0;
+  width: 300px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+footer {
+  background: #13A89E;
+  font-family: "Open Sans", sans-serif;
+  padding: 60px 0;
+}
+footer h3 {
+  font-size: 2rem;
+  color: white;
+  border-bottom: 1px solid #71cbc5;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  color: white;
+  font-size: 1.3rem;
+}
+footer ul li a {
+  display: inline-block;
+  margin: 5px 0;
+  color: white;
+}
+footer ul li a:hover {
+  color: white;
+  text-decoration: none;
+  padding-left: 5px;
+}
+footer ul li.spacer {
+  margin-top: 30px;
+}
+footer ul li.day {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+footer ul li.first-day {
+  margin-top: 30px;
+}
