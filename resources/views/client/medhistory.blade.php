@@ -192,7 +192,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <a class="accordion-toggle collapsed continue" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Continue to section two</a>
+                                <a class="accordion-toggle collapsed continue" id="fixscroll" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Continue to section two</a>
                             </div>
                         </div>
                     </div>
@@ -710,6 +710,21 @@
                                             <input type="radio" name="lesionDiagnosed" value="No" checked> No
                                         </label>
                                     </div>
+                                </div>
+                                <a class="accordion-toggle continue" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Continue to section ten</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">10. Other Information</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a class="accordion-toggle back" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Go back to section nine</a>
+                                <div class="form-group">
                                     <label class="title">Other Information</label>
                                         <textarea rows="5" cols="100" name="lesionInformation" class="form-control"></textarea>
                                     <label class="title">Client expectations of the treatment</label>
