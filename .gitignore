@@ -5,4 +5,6 @@ Homestead.yaml
 Homestead.json
 .env
 *.scssc
-*.rb
+public/.sass-cache/3c5e6bf314afb2308b0009233f3300166960b6f1/styles.sassc
+*.sassc
+*.sass

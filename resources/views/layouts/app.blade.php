@@ -163,5 +163,6 @@
         </div>
     </div>
 </footer>
+<script src="{{asset('js/scroll.js')}}"></script>
 </body>
 </html>
